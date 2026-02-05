@@ -1,19 +1,9 @@
-# Introductio
+- Introductio
+  - [Introductio](introductio.md)
 
-# § Quaestio Prima — De significatione terminorum
-
-# § Quaestio Secunda — De eo quod per Staticum, Dynamicum, Mentale et Vitale intelligitur
-
-# § Quaestio Tertia — De mutatione intellectus per introductionem horum axium
-
-# § Quaestio Quarta — De accusatione phenomenologismi
-
-# § Quaestio Quinta — De definitionibus formalibus axium
-
-## §§ Articulus I — De Statico
-
-## §§ Articulus II — De Dynamico
-
-## §§ Articulus III — De Vitali
-
-## §§ Articulus IV — De Mentali
+- Quaestiones
+  - [§ I — De significatione terminorum](quaestio-prima.md)
+  - [§ II — De eo quod per Staticum, Dynamicum, Mentale et Vitale intelligitur](quaestio-secunda.md)
+  - [§ III — De mutatione intellectus per introductionem horum axium](quaestio-tertia.md)
+  - [§ IV — De accusatione phenomenologismi](quaestio-quarta.md)
+  - [§ V — De definitionibus formalibus axium](quaestio-quinta.md)
