@@ -1,13 +1,44 @@
+/* ===== Base ===== */
+
 body {
   font-family: "Times New Roman", Times, serif;
-  background: #1e1e1e; 
+  background: #1e1e1e;
   color: #e6e6e6;
   line-height: 1.65;
+  font-size: 16px;
+}
+
+/* ===== Docsify layout ===== */
+
+#app {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sidebar sempre visível (estilo AdlerZero) */
+.sidebar {
+  background: #181818;
+  color: #e6e6e6;
+}
+
+.sidebar a {
+  color: #cfcfcf;
+}
+
+.sidebar a:hover {
+  color: #ffffff;
+}
+
+/* ===== Conteúdo ===== */
+
+.markdown-section {
   max-width: 760px;
   margin: 4rem auto;
   padding: 0 1.2rem;
-  font-size: 16px;
 }
+
+/* ===== Títulos ===== */
 
 h1, h2, h3, h4 {
   font-weight: normal;
@@ -15,66 +46,47 @@ h1, h2, h3, h4 {
   margin-bottom: 1rem;
 }
 
-h1 {
-  font-size: 1.45rem;
-}
+h1 { font-size: 1.45rem; }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1.1rem; }
+h4 { font-size: 1rem; }
 
-h2 {
-  font-size: 1.25rem;
-}
-
-h3 {
-  font-size: 1.1rem;
-}
-
-h4 {
-  font-size: 1rem;
-}
+/* ===== Texto ===== */
 
 p {
   margin: 0.9rem 0;
   text-align: justify;
 }
 
+/* ===== Links ===== */
+
+.markdown-section a {
+  color: #8ab4f8;
+  text-decoration: underline;
+}
+
+.markdown-section a:hover {
+  text-decoration: none;
+}
+
+/* ===== Citações ===== */
+
 blockquote {
   margin: 1.6rem 0 1.6rem 1.2rem;
   padding: 1rem 1.2rem;
   border-left: 4px solid #e0e0e0;
   background: #2a2a2a;
-  color: #ffffff !important;
-  opacity: 1 !important;
+  color: #ffffff;
 }
+
 blockquote * {
-  color: #ffffff !important;
-  opacity: 1 !important;
+  color: #ffffff;
 }
+
+/* ===== Separadores ===== */
 
 hr {
   border: none;
   border-top: 1px solid #999;
   margin: 2.5rem 0;
-}
-
-a {
-  color: #000;
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: none;
-}
-.reveal {
-  opacity: 0;
-  transform: translateY(12px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-blockquote p {
-  color: #f0f0f0;
-  margin: 0;
 }
