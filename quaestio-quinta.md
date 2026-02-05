@@ -1,4 +1,3 @@
-
 # § Quaestio Quinta — De definitionibus formalibus axium
 
 ### §§ Articulus I — De Statico
@@ -33,4 +32,20 @@ Although this point is generally among the best explained within socionics, cert
 
 In this context, the recurrent claim that such processes are “conscious” proves to be mistaken, if not outright contradictory. Only the *Ego* organizes linear and deliberate interpretation of experience. To attribute direct consciousness to vital operations is to confuse distinct functional levels. A typical example of this confusion is the assertion that an *SLE* “works well because of *Te*,” when in reality *Te* in this case is contact-based, vital, unconscious, and strong. Its mode of operation is not autonomous: it depends on the structural course imposed by *Ti* and on the conceptual system previously adopted.
 
-Indee
+Indeed, it is not possible to make a system function without first selecting it—that is, without defining its internal rules, its relations, and the functional position of each element. One cannot treat *A* as if it were *B*: each component performs a specific function within a determined structure. This is precisely what differentiates a strong vital *Te* from a *Te* valued in the *Ego*. In the former case, effectiveness lies in automatic execution within a given arrangement; in the latter, there exists the possibility of altering the structure itself, redefining means and relations to optimize the system’s overall functioning.
+
+For this reason, expressions such as “I use my demonstrative function to…” most often constitute a conceptual misunderstanding or an imprecise euphemism. What actually occurs is that the *creative function of the Ego* decides how a given mode of manifestation will be employed. This distinction explains why individuals of the same type may present striking differences in their manner of acting: it is not a matter of conscious use of vital functions, but of structural mediation exercised by the *Ego* over contents that, in themselves, operate automatically.
+
+---
+
+### §§ Articulus IV — De Mentali
+
+The only block that is truly stable, linear, under direct control, highly autonomous, and structurally rigid is the *Ego*. Paradoxically, it is also the block most frequently neglected or misunderstood by the individual. Nevertheless, it is the *Ego* that governs the entire interpretative activity of the type, functioning as the organizing center of conscious experience. It is intellectually exhausting—and at times frankly puerile—to hear attempts by certain commentators to “discover” which elements are manifesting in each block as if they were independent and competing instances. This is a false problem.
+
+All psychic activity ultimately returns to the *Ego*, precisely because it is the block most efficient at separating, organizing, modulating, correcting, creating, and deconstructing any information with which it comes into contact. In this sense, the mental ring—and above all the *Ego*—constitutes the set of conscious half-phases of processing: when an element is activated in the *Ego*, it is immediately recognized as such, without the need for additional processing to understand what it is. Unlike the vital ring, which requires implicit and non-linear mediation, the mental operates through direct recognition and immediate intelligibility.
+
+One need only observe how a type knows when and how to react to a social or normative demand—even when choosing to act against it—in the *Role* block, or how one immediately recognizes what causes objective damage in the *PoLR*. Such recognitions do not require prolonged interpretative effort; they are evidence of the centrality of the *Ego* as the conscious organizing instance.
+
+In this context, when so-called “intuitive” types claim not to care about issues of physical impact, or consistently reaffirm that they disregard them, this generally does not indicate absence of processing, but rather coping mechanisms. The capacity to “disregard” certain aspects without conscious pain is not lack of sensitivity, but the ability to deliberately modulate physical and sensory states up to a functional limit. Analogously, when sensory types claim to treat time or change in a deliberately careless manner, this tends to indicate *HD* (High Dissociation) rather than *LD* (Low Dissociation)—though it must be acknowledged that social environment, context, and living conditions can strongly influence these epistemic expressions.
+
+In all such cases, the decisive point remains: everything that is effectively modulated in a conscious manner falls under the domain of the *Ego*, and does so strongly. That which manifests as diffuse guilt, normative tension, or defensive mechanisms that pressure behavior without full clarity does not belong to the *Ego*, but to the *Superego*, which acts as a non-prejudicial yet coercive regulatory instance of the psychic system.
