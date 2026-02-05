@@ -1,4 +1,6 @@
-/* ===== Base ===== */
+/* =========================================================
+   Base tipográfica
+   ========================================================= */
 
 body {
   font-family: "Times New Roman", Times, serif;
@@ -8,7 +10,9 @@ body {
   font-size: 16px;
 }
 
-/* ===== Docsify layout ===== */
+/* =========================================================
+   Layout Docsify
+   ========================================================= */
 
 #app {
   max-width: none;
@@ -16,7 +20,9 @@ body {
   padding: 0;
 }
 
-/* ===== Sidebar ===== */
+/* =========================================================
+   Sidebar
+   ========================================================= */
 
 .sidebar {
   background: #181818;
@@ -27,34 +33,40 @@ body {
   color: #cfcfcf;
 }
 
-.sidebar a:hover {
-  color: #ffffff;
+.sidebar a:hover,
+.sidebar .active > a {
+  color: #3ddc97;
 }
 
-/* ===== Conteúdo ===== */
+/* =========================================================
+   Conteúdo principal
+   ========================================================= */
 
 .markdown-section {
   max-width: 760px;
   margin: 4rem auto;
-  padding: 0 1.2rem;
+  padding: 0 2.6rem;          /* margem segura para texto justificado */
+  box-sizing: border-box;
 }
 
-/* ===== Títulos (VERDE) ===== */
+/* =========================================================
+   Títulos (verde acadêmico)
+   ========================================================= */
 
 .markdown-section h1,
 .markdown-section h2,
 .markdown-section h3,
 .markdown-section h4 {
   font-weight: normal;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  color: #3ddc97; /* verde acadêmico */
+  margin-top: 2.8rem;
+  margin-bottom: 1.2rem;
+  color: #3ddc97;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
 
-/* remove azul herdado de links em títulos */
+/* remove herança azul de links em títulos */
 .markdown-section h1 a,
 .markdown-section h2 a,
 .markdown-section h3 a,
@@ -68,14 +80,21 @@ h2 { font-size: 1.25rem; }
 h3 { font-size: 1.1rem; }
 h4 { font-size: 1rem; }
 
-/* ===== Texto ===== */
+/* =========================================================
+   Texto corrido
+   ========================================================= */
 
-p {
-  margin: 0.9rem 0;
+.markdown-section p {
+  margin: 1rem 0;
   text-align: justify;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
-/* ===== Links ===== */
+/* =========================================================
+   Links
+   ========================================================= */
 
 .markdown-section a {
   color: #8ab4f8;
@@ -86,11 +105,13 @@ p {
   text-decoration: none;
 }
 
-/* ===== Citações (TEXTO BRANCO) ===== */
+/* =========================================================
+   Citações
+   ========================================================= */
 
 .markdown-section blockquote {
-  margin: 2rem 0;
-  padding: 1.2rem 1.4rem;
+  margin: 2.2rem 0;
+  padding: 1.4rem 1.6rem;
   border-left: 4px solid #3ddc97;
   background: #252525;
   font-style: italic;
@@ -100,14 +121,17 @@ p {
 .markdown-section blockquote p,
 .markdown-section blockquote em,
 .markdown-section blockquote strong {
-  color: #ffffff !important;
-  opacity: 1 !important;
+  color: #ffffff;
+  opacity: 1;
 }
 
-/* ===== Separadores ===== */
+/* =========================================================
+   Separadores
+   ========================================================= */
 
 hr {
   border: none;
   border-top: 1px solid #999;
-  margin: 2.5rem 0;
+  margin: 3rem 0;
 }
+
