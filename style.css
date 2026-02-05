@@ -61,9 +61,6 @@ body {
   margin-top: 2.8rem;
   margin-bottom: 1.2rem;
   color: #3ddc97;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
 }
 
 /* remove herança azul de links em títulos */
@@ -72,7 +69,6 @@ body {
 .markdown-section h3 a,
 .markdown-section h4 a {
   color: inherit;
-  text-decoration: inherit;
 }
 
 h1 { font-size: 1.45rem; }
