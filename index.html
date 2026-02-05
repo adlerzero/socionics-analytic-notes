@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +8,7 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
+
   <div id="app"></div>
 
   <script>
@@ -19,30 +18,30 @@
       loadSidebar: true,
       subMaxLevel: 2,
       auto2top: true
-    }
+    };
   </script>
 
+  <!-- Docsify core -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/mathjax.min.js"></script>
+
+  <!-- MathJax CORE (obrigatório) -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- Docsify MathJax plugin -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/mathjax.min.js"></script>
 
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [['\\(', '\\)'], ['$', '$']],
-      displayMath: [['$$', '$$']]
-    },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-  };
-</script>
-
-<script>
-  window.MathJax = {
-    tex: { inlineMath: [['\\(','\\)'], ['$', '$']] }
-  }
-</script>
+  <!-- MathJax configuration -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        displayMath: [['$$', '$$']]
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    };
+  </script>
 
 </body>
 </html>
