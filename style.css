@@ -1,41 +1,37 @@
 /* =========================================================
-   Base tipográfica
+   Base tipográfica e Comportamento
    ========================================================= */
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Times New Roman", Times, serif;
   background: #1e1e1e;
   color: #e6e6e6;
-  line-height: 1.65;
-  font-size: 16px;
+  line-height: 1.75; /* Aumentado levemente para melhor leitura */
+  font-size: 17px;    /* Aumentado para equilibrar com a fonte Serif */
 }
 
 /* =========================================================
-   Layout Docsify
-   ========================================================= */
-
-#app {
-  max-width: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* =========================================================
-   Sidebar
+   Sidebar (Melhorada)
    ========================================================= */
 
 .sidebar {
-  background: #181818;
-  color: #e6e6e6;
+  background: #141414; /* Tom levemente mais escuro */
+  border-right: 1px solid #2a2a2a;
 }
 
-.sidebar a {
-  color: #cfcfcf;
+.sidebar-nav li a {
+  transition: all 0.2s ease;
+  font-weight: 300;
 }
 
 .sidebar a:hover,
 .sidebar .active > a {
-  color: #3ddc97;
+  color: #3ddc97 !important;
+  text-decoration: none;
 }
 
 /* =========================================================
@@ -43,91 +39,108 @@ body {
    ========================================================= */
 
 .markdown-section {
-  max-width: 760px;
+  max-width: 800px; /* Um pouco mais largo para equilíbrio */
   margin: 4rem auto;
-  padding: 0 2.6rem;          /* margem segura para texto justificado */
+  padding: 0 2.6rem 20vh; /* 20vh adiciona espaço de sobra no final (20% da altura da tela) */
   box-sizing: border-box;
 }
 
 /* =========================================================
-   Títulos (verde acadêmico)
+   Títulos (Verde ou Branco)
    ========================================================= */
 
 .markdown-section h1,
-.markdown-section h2,
-.markdown-section h3,
-.markdown-section h4 {
+.markdown-section h2 {
+  color: #3ddc97; /* Verde para títulos principais */
   font-weight: normal;
-  margin-top: 2.8rem;
-  margin-bottom: 1.2rem;
-  color: #3ddc97;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
 }
 
-/* remove herança azul de links em títulos */
+.markdown-section h3,
+.markdown-section h4 {
+  color: #ffffff; /* Branco para subtítulos, criando hierarquia */
+  font-weight: normal;
+  margin-top: 2.5rem;
+}
+
+/* Remove underline e herança em links de títulos */
 .markdown-section h1 a,
 .markdown-section h2 a,
 .markdown-section h3 a,
 .markdown-section h4 a {
-  color: inherit;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
-h1 { font-size: 1.45rem; }
-h2 { font-size: 1.25rem; }
-h3 { font-size: 1.1rem; }
-h4 { font-size: 1rem; }
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.2rem; }
 
 /* =========================================================
-   Texto corrido
+   Texto corrido e Links
    ========================================================= */
 
 .markdown-section p {
-  margin: 1rem 0;
+  margin: 1.2rem 0;
   text-align: justify;
   hyphens: auto;
-  overflow-wrap: break-word;
-  word-break: normal;
 }
 
-/* =========================================================
-   Links
-   ========================================================= */
-
+/* Removendo underline dos links e adicionando hover sutil */
 .markdown-section a {
   color: #8ab4f8;
-  text-decoration: underline;
+  text-decoration: none; 
+  transition: color 0.2s ease;
 }
 
 .markdown-section a:hover {
+  color: #3ddc97; /* O link muda para verde ao passar o mouse */
   text-decoration: none;
 }
 
 /* =========================================================
-   Citações
+   Citações (Blockquote)
    ========================================================= */
 
 .markdown-section blockquote {
-  margin: 2.2rem 0;
-  padding: 1.4rem 1.6rem;
-  border-left: 4px solid #3ddc97;
+  margin: 2.5rem 0;
+  padding: 1rem 2rem;
+  border-left: 3px solid #3ddc97;
   background: #252525;
   font-style: italic;
+  border-radius: 2px;
 }
 
-.markdown-section blockquote,
-.markdown-section blockquote p,
-.markdown-section blockquote em,
-.markdown-section blockquote strong {
+.markdown-section blockquote p {
   color: #ffffff;
-  opacity: 1;
 }
 
 /* =========================================================
-   Separadores
+   Melhoria Geral: Barra de Rolagem Customizada
    ========================================================= */
 
-hr {
-  border: none;
-  border-top: 1px solid #999;
-  margin: 3rem 0;
+::-webkit-scrollbar {
+  width: 8px;
 }
 
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3ddc97;
+}
+
+/* Separadores */
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 4rem 0;
+}
