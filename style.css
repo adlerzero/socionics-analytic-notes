@@ -1,5 +1,5 @@
 /* =========================================================
-   Base tipográfica e Comportamento
+   Base e Comportamento
    ========================================================= */
 
 html {
@@ -10,12 +10,12 @@ body {
   font-family: "Times New Roman", Times, serif;
   background: #1e1e1e;
   color: #e6e6e6;
-  line-height: 1.8; /* Levemente aumentado para fluidez */
+  line-height: 1.8;
   font-size: 17px;
 }
 
 /* =========================================================
-   Sidebar (Melhorada)
+   Sidebar
    ========================================================= */
 
 .sidebar {
@@ -23,12 +23,6 @@ body {
   border-right: 1px solid #2a2a2a;
 }
 
-.sidebar-nav li a {
-  transition: all 0.2s ease;
-  font-weight: 300;
-}
-
-/* O destaque da barra lateral permanece verde para navegação */
 .sidebar a:hover,
 .sidebar .active > a {
   color: #3ddc97 !important;
@@ -36,43 +30,37 @@ body {
 }
 
 /* =========================================================
-   Conteúdo principal e Rolagem Final
+   Conteúdo e Espaço de Rolagem Final
    ========================================================= */
 
 .markdown-section {
   max-width: 820px;
   margin: 4rem auto;
-  /* 40vh garante um grande espaço em branco após o último parágrafo */
-  padding: 0 2.6rem 40vh; 
+  /* 50vh garante metade da tela de espaço vazio após o texto */
+  padding: 0 2.6rem 50vh !important; 
   box-sizing: border-box;
 }
 
 /* =========================================================
-   Títulos (Branco Absoluto e Sem Sublinhado/Borda)
+   Títulos (Branco Absoluto e SEM Linha Verde)
    ========================================================= */
 
 .markdown-section h1,
 .markdown-section h2,
 .markdown-section h3,
-.markdown-section h4 {
-  color: #ffffff !important;
-  font-weight: normal;
-  margin-top: 3.5rem;
-  margin-bottom: 1.5rem;
-  letter-spacing: 0.5px;
-  /* Remove a linha verde (border-bottom) comum no Docsify */
-  border-bottom: none !important;
-  text-decoration: none !important;
-}
-
-/* Garante que links dentro dos títulos não herdem cores ou sublinhados */
+.markdown-section h4,
 .markdown-section h1 a,
 .markdown-section h2 a,
 .markdown-section h3 a,
 .markdown-section h4 a {
   color: #ffffff !important;
+  font-weight: normal;
   text-decoration: none !important;
+  /* Remove qualquer borda, sublinhado ou sombra que cria a linha verde */
   border-bottom: none !important;
+  box-shadow: none !important;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
 }
 
 h1 { font-size: 1.85rem; }
@@ -80,25 +68,22 @@ h2 { font-size: 1.55rem; }
 h3 { font-size: 1.25rem; }
 
 /* =========================================================
-   Texto corrido e Links
+   Texto e Links
    ========================================================= */
 
 .markdown-section p {
   margin: 1.3rem 0;
   text-align: justify;
-  hyphens: auto;
 }
 
-/* Links no texto: azul suave, sem underline */
+/* Links comuns no texto ficam azuis e sem underline */
 .markdown-section a {
   color: #8ab4f8;
-  text-decoration: none !important; 
-  transition: color 0.2s ease;
+  text-decoration: none !important;
 }
 
 .markdown-section a:hover {
-  color: #3ddc97; 
-  text-decoration: none !important;
+  color: #3ddc97;
 }
 
 /* =========================================================
@@ -108,10 +93,9 @@ h3 { font-size: 1.25rem; }
 .markdown-section blockquote {
   margin: 2.5rem 0;
   padding: 1.2rem 2rem;
-  border-left: 3px solid #3ddc97; /* Apenas o detalhe lateral em verde */
+  border-left: 3px solid #3ddc97;
   background: #252525;
   font-style: italic;
-  border-radius: 2px;
 }
 
 .markdown-section blockquote p {
@@ -119,30 +103,12 @@ h3 { font-size: 1.25rem; }
 }
 
 /* =========================================================
-   Customização de Detalhes
+   Barra de Rolagem Customizada
    ========================================================= */
 
-/* Barra de rolagem minimalista */
-::-webkit-scrollbar {
-  width: 7px;
-}
+::-webkit-scrollbar { width: 7px; }
+::-webkit-scrollbar-track { background: #1e1e1e; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #3ddc97; }
 
-::-webkit-scrollbar-track {
-  background: #1e1e1e;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #333;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #3ddc97;
-}
-
-/* Separadores horizontais */
-hr {
-  border: none;
-  border-top: 1px solid #333;
-  margin: 4rem 0;
-}
+hr { border: none; border-top: 1px solid #333; margin: 4rem 0; }
