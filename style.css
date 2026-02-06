@@ -9,7 +9,7 @@ html {
 body {
   font-family: "Times New Roman", Times, serif;
   background: #1e1e1e;
-  color: #e6e6e6; /* Texto principal em off-white para leitura clara */
+  color: #e6e6e6; /* Texto principal em tom claro para leitura confortável */
   line-height: 1.8;
   font-size: 17px;
 }
@@ -25,7 +25,7 @@ body {
 
 .sidebar a:hover,
 .sidebar .active > a {
-  color: #3ddc97 !important; /* Destaque verde apenas na navegação */
+  color: #3ddc97 !important; /* Destaque verde apenas na navegação lateral */
   text-decoration: none !important;
 }
 
@@ -36,13 +36,13 @@ body {
 .markdown-section {
   max-width: 820px;
   margin: 4rem auto;
-  /* Aumentado para 70vh para garantir o máximo de espaço após o texto */
-  padding: 0 2.6rem 70vh !important; 
+  /* 75vh garante um amplo espaço vazio após o texto para facilitar a rolagem */
+  padding: 0 2.6rem 75vh !important; 
   box-sizing: border-box;
 }
 
 /* =========================================================
-   Títulos (Branco Puro e SEM Linha Verde)
+   Títulos (Branco Puro e SEM Linhas/Bordas)
    ========================================================= */
 
 .markdown-section h1,
@@ -53,10 +53,10 @@ body {
 .markdown-section h2 a,
 .markdown-section h3 a,
 .markdown-section h4 a {
-  color: #ffffff !important; /* Forçado para Branco Puro conforme solicitado */
+  color: #ffffff !important; /* Forçado para Branco conforme solicitado */
   font-weight: normal;
   text-decoration: none !important;
-  /* Remove qualquer borda, sublinhado ou sombra que cria a linha verde */
+  /* Remove bordas, sublinhados e sombras que criam a linha verde */
   border-bottom: none !important;
   box-shadow: none !important;
   margin-top: 3.5rem;
