@@ -9,7 +9,7 @@ html {
 body {
   font-family: "Times New Roman", Times, serif;
   background: #1e1e1e;
-  color: #3ddc97;
+  color: #e6e6e6; /* Texto principal em off-white para leitura clara */
   line-height: 1.8;
   font-size: 17px;
 }
@@ -25,7 +25,7 @@ body {
 
 .sidebar a:hover,
 .sidebar .active > a {
-  color: #3ddc97 !important;
+  color: #3ddc97 !important; /* Destaque verde apenas na navegação */
   text-decoration: none !important;
 }
 
@@ -36,13 +36,13 @@ body {
 .markdown-section {
   max-width: 820px;
   margin: 4rem auto;
-  /* 50vh garante metade da tela de espaço vazio após o texto */
-  padding: 0 2.6rem 50vh !important; 
+  /* Aumentado para 70vh para garantir o máximo de espaço após o texto */
+  padding: 0 2.6rem 70vh !important; 
   box-sizing: border-box;
 }
 
 /* =========================================================
-   Títulos (Branco Absoluto e SEM Linha Verde)
+   Títulos (Branco Puro e SEM Linha Verde)
    ========================================================= */
 
 .markdown-section h1,
@@ -53,7 +53,7 @@ body {
 .markdown-section h2 a,
 .markdown-section h3 a,
 .markdown-section h4 a {
-  color: #3ddc97 !important;
+  color: #ffffff !important; /* Forçado para Branco Puro conforme solicitado */
   font-weight: normal;
   text-decoration: none !important;
   /* Remove qualquer borda, sublinhado ou sombra que cria a linha verde */
@@ -63,20 +63,20 @@ body {
   margin-bottom: 1.5rem;
 }
 
-h1 { font-size: 1.85rem; }
-h2 { font-size: 1.55rem; }
-h3 { font-size: 1.25rem; }
+h1 { font-size: 1.9rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.3rem; }
 
 /* =========================================================
    Texto e Links
    ========================================================= */
 
 .markdown-section p {
-  margin: 1.3rem 0;
+  margin: 1.4rem 0;
   text-align: justify;
 }
 
-/* Links comuns no texto ficam azuis e sem underline */
+/* Links no texto: azul suave e sem underline */
 .markdown-section a {
   color: #8ab4f8;
   text-decoration: none !important;
@@ -84,6 +84,7 @@ h3 { font-size: 1.25rem; }
 
 .markdown-section a:hover {
   color: #3ddc97;
+  text-decoration: none !important;
 }
 
 /* =========================================================
