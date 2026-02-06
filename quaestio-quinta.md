@@ -1,5 +1,4 @@
 # § Quaestio Quinta — De definitionibus formalibus axium
-
 ### §§ Articulus I — De Statico
 
 Staticity in socionics, as has already been refuted and commented upon previously, is nothing other than an orientation toward conceptual contents that operate alongside immediate empirical reality. What does this mean? It means that reality in itself contains phenomena that would occur independently of subjective interpretation; however, when such phenomena are apprehended by the intellect, they are not primarily taken in their linear chain of effects, but elevated to a conceptual plane in which their stable and normative structures are investigated.
